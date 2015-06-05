@@ -13,13 +13,23 @@ require_once('helper.php');
  ```php 
 $sometext = "I'm a #Persian #Programmer. \n My native language is #فارسی";
 echo tagExport($sometext); 
-``` 
-##### Note if you want to see just the hashtags use tagExport($sometext,'tagsOnly'); !!
- 
+```  
  Output:
  <code>
  I'm a <a href="?lookfor=Persian">#Persian</a> <a href="?lookfor=Programmer">#Programmer</a>. <br> My native language is <a href="?lookfor=فارسی">#فارسی</a>
 </code> 
+
+##### Note if you want to see just the hashtags use tagExport($sometext,'tagsOnly'); !!
+ ```php 
+$sometext = "I'm a #Persian #Programmer. \n My native language is #فارسی";
+echo tagExport($sometext'tagsOnly'); 
+```  
+ Output:
+ ```html 
+#Persian #Programmer #فارسی
+```  
+
+ 
 
 ## Copyright and license
 #### Code released under Beerware
