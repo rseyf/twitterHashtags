@@ -9,7 +9,7 @@
   * blog  : http://1reza.blogspot.com
   
   
-  * Export the hashtags of a given string 
+  * Extract the hashtags of a given string 
   *
   * @param string $str         
   * the input string to be proccess and export the hashtags from it
@@ -20,7 +20,7 @@
   * @return string Returns the full string with linked hashtags or will just give you the hashtags.
   */
   
-function tagExport($str ,$outputType = null) 
+function tagExtract($str ,$outputType = null) 
 { 
   
   /** 
