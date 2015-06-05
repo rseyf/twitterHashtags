@@ -12,7 +12,7 @@ require_once('helper.php');
 #### 2. Pass a string as an argument to the function:
  ```php 
 $sometext = "I'm a #Persian #Programmer. \n My native language is #فارسی";
-echo tagExport($sometext); 
+echo tagExtract($sometext); 
 ```  
  Output:
  <code>
@@ -22,7 +22,7 @@ echo tagExport($sometext);
 ##### Note: if you just need to export hashtags, pass the 'tagsOnly' argument :
  ```php 
 $sometext = "I'm a #Persian #Programmer. \n My native language is #فارسی";
-echo tagExport($sometext,'tagsOnly'); 
+echo tagExtract($sometext,'tagsOnly'); 
 ```  
  Output:
  ```html 
