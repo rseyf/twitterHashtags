@@ -19,10 +19,10 @@ echo tagExport($sometext);
  I'm a <a href="?lookfor=Persian">#Persian</a> <a href="?lookfor=Programmer">#Programmer</a>. <br> My native language is <a href="?lookfor=فارسی">#فارسی</a>
 </code> 
 
-##### Note: if you just need to export hashtags,pass 'tagsOnly' argument :
+##### Note: if you just need to export hashtags, pass the 'tagsOnly' argument :
  ```php 
 $sometext = "I'm a #Persian #Programmer. \n My native language is #فارسی";
-echo tagExport($sometext'tagsOnly'); 
+echo tagExport($sometext,'tagsOnly'); 
 ```  
  Output:
  ```html 
