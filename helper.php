@@ -88,8 +88,4 @@ function tagExport($str ,$outputType = null)
 	else
 		return $str;  
 	
-} 
-
- // Lets use it!
- $sometext = "I'm a #Persian #Programmer. <br> My native language is #فارسی";
- echo tagExport($sometext); 
+}
