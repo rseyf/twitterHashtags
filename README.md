@@ -9,7 +9,7 @@ Export Hashtags from a string in PHP
 require_once('helper.php'); 
 ```
 
-#### 2. Pass a string as a argument to the function:
+#### 2. Pass a string as an argument to the function:
  ```php 
 $sometext = "I'm a #Persian #Programmer. \n My native language is #فارسی";
 echo tagExport($sometext); 
@@ -19,7 +19,7 @@ echo tagExport($sometext);
  I'm a <a href="?lookfor=Persian">#Persian</a> <a href="?lookfor=Programmer">#Programmer</a>. <br> My native language is <a href="?lookfor=فارسی">#فارسی</a>
 </code> 
 
-##### Note if you want to see just the hashtags use tagExport($sometext,'tagsOnly'); !!
+##### Note: if you just need to export hashtags,pass 'tagsOnly' argument :
  ```php 
 $sometext = "I'm a #Persian #Programmer. \n My native language is #فارسی";
 echo tagExport($sometext'tagsOnly'); 
