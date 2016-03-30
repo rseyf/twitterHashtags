@@ -32,5 +32,4 @@ echo tagExtract($sometext,'tagsOnly');
  
 
 ## Copyright and license
-#### Code released under Beerware
-#### Blog: <a href="http://1reza.blogspot.com/"> 1reza.blogspot.com </a>
+#### Code released under MIT License 
